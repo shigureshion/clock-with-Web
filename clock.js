@@ -8,4 +8,4 @@ function clockjs(){
     document.getElementById("clock").innerHTML = clockontime;
 }
 
-setInterval('clockjs',1000);
+setInterval('clockjs()',1000);
