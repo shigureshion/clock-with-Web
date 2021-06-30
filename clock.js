@@ -6,12 +6,7 @@ function clockjs(){
 
     var clockontime = nowhour + ":" + nowmin + ":" + nowsec;
     document.getElementById("clock").innerHTML = clockontime;
-}
 
-setInterval('clockjs()',1000);
-
-function dayjs(){
-    var nowtime = new Date();
     var nowyear = nowtime.getFullYear();
     var nowmonth = nowtime.getMonth();
     var nowday = nowtime.getDay();
